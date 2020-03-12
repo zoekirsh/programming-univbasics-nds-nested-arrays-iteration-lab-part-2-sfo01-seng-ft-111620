@@ -121,3 +121,7 @@ Use `learn` to check your solution and `learn submit` to submit your work.
 
 ## Conclusion
 
+Sometimes data is not in a format that is useful to us. Sometimes, there is so much data, it
+would be difficult to visually extract information out. Mapping over data structures and extracting
+what we want is a very helpful ability in these situations. We can turn data into what we need and
+shape it in a way that suits us.
