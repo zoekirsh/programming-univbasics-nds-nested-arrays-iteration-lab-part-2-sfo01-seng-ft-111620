@@ -46,7 +46,7 @@ will help a lot!
 
 A slight variation on this code will allow us to _compare_ values - handy for
 when we need to do things like find a maximum or minimum value. Say, for
-instance, we wanted to find the longest string in each nested array from our
+instance, we wanted to collect the longest string in each nested array from our
 previous example. Instead of using a conditional to check for `"P"`, we could
 use a variable to keep track of the longest string.
 
@@ -90,7 +90,7 @@ hourly local temperatures for the last seven days in an array of arrays, and you
 would like to find the low temperature for each day.
 
 Write a method, `find_min_in_nested_arrays` that can take in an array of arrays
-of integers. This method should collect the minimimum value in each nested array
+of integers. This method should collect the minimum value in each nested array
 into a new array and return it. If we had the following data:
 
 ```rb
