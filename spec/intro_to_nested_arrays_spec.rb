@@ -17,8 +17,8 @@ array_2 = [
 ]
 
 describe "Write a method called \"find_min_in_nested_arrays\"" do
-  describe "that takes in argument of an Array of Arrays containing pairs of numbers" do
-    it "returns the smallest numbers from each pair in a new Array" do
+  describe "that takes in argument of an Array of Arrays containing sets of numbers" do
+    it "returns the smallest numbers from each set in a new Array" do
       expect(find_min_in_nested_arrays(array_1)).to eq([18, 17, 13, 19, 20, 24, 22])
       expect(find_min_in_nested_arrays(array_2)).to eq([1, 1, 0])
     end
